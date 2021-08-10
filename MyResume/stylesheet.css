@@ -1,0 +1,17 @@
+html {
+  background: url(images/background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+img {
+  float: right;
+  margin: 0px 15px 15px 15px;
+  width: 300px;
+  height: 425px;
+}
