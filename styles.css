@@ -62,7 +62,7 @@ h2 {
 body {
   font-family: "Lobster", cursive;
   font-size: 18px;
-  background: url(images/background.jpg) no-repeat;
+  background: url(./images/background.jpg) no-repeat;
   background-size: cover;
 }
 .social-icons {
