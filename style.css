@@ -1,0 +1,109 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  body {
+      color: #1a1a1a;
+      background-color: #5352d4;
+      font-family: 'Poppins', sans-serif;
+      overflow-x: hidden;
+  }
+  .summary {
+    width: 1000px;
+      margin: 0 auto;
+  }
+  .info {
+    background: #5655da;
+    padding: 46px;
+    position: fixed;
+    height: 100%;
+    width: 260px;
+    z-index: 5;
+  }
+  .summary .info h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 30px 0 15px 0;
+  }
+  .summary .info p span {
+    display: block;
+    color: #d8d8e9;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  .summary .info h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 35px 0 15px 0;
+  }
+  .summary .info span {
+    color: #d8d8e9;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .summary .info img {
+    width: 100%;
+  }
+  .summary .info .avatar {
+    overflow: hidden;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+  }
+  .summary .info_education .contact_info a{
+    display: block;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  contact_infocontact_info
+  .pull_left {
+      float: left;
+  }
+  .pull_right{
+      float: right;
+  }
+  .info_education{
+      background: #FFF;
+      width: 740px;
+      height: 2000px;
+  }
+  
+  .info_education{
+      padding: 60px 70px;
+      position: relative;
+      border-bottom: solid 1px #EEE;
+  }
+  
+  .summary .info_education .prof_skills a{
+    display: block;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  .summary .info_education h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #f74470;
+    letter-spacing: 1px;
+    margin: 35px 0 15px 0;
+  }
+  
