@@ -72,7 +72,7 @@ body {
   border-color: red;
   color: white;
   transform: scale(1.2) translateX(-30px);
-  animation: shake-box-shadow 3s infinite alternate;
+  animation: shake-box-shadow 2s infinite alternate;
 }
 
 .deep {
