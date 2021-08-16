@@ -18,7 +18,8 @@ body{
 }
 
 .h {
-	padding-left: 200px;
+	margin-left: auto;
+	margin-right: 45%;
 }
 
 .head {

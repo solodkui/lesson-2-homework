@@ -22,11 +22,13 @@ body{
 	text-decoration: none;
 	border-radius: 10px;
 	font-size: 20px;
-	line-height: 70px;
+	display: block;
+	justify-content: column;
 }
 
-.h {
-	margin-left: 350px;
+.h-link {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .head {
@@ -42,10 +44,6 @@ body{
 	font-size: 36px;
 	font-weight: 600px;
 	margin: 0;
-}
-
-.h-link {
-	margin-left: 300px;
 }
 
 ol {
