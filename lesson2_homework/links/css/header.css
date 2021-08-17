@@ -31,6 +31,7 @@ header a:hover {
   display: none;
   flex-direction: column;
   position: absolute;
+  z-index: 5;
   left: 0;
   min-width: 150px;
   text-align: left;
