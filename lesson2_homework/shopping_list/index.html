@@ -5,15 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="beetroot" />
 
-    <!-- ! link favicon (use beetroot img) -->
-    <link rel="icon" href="./img/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="./links_css/normalize.css" />
-    <link rel="stylesheet" href="./links_css/header.css" />
+    <!-- ? can i use this icon -->
+    <link rel="icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/header.css" />
 
-    <!-- page name  -->
-    <title>General page</title>
+    <!-- page name -->
+    <title>Shop</title>
   </head>
   <body>
     <!-- navigation block -->
@@ -109,19 +108,45 @@
         </nav>
       </div>
     </header>
+    <!-- main container -->
+    <main>
+      <h3>Shopping list</h3>
 
-    <!-- content -->
-    <div>
-      <iframe
-        width="1280"
-        height="720"
-        src="https://www.youtube.com/embed/ZOzzRlc_qho"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
+      <!-- Shopping list -->
+      <div>
+        <ol>
+          <li>
+            <input type="checkbox" id="aples" name="food" value="aples" />
+            <label for="aples">Aplles</label>
+          </li>
+          <li>
+            <input type="checkbox" id="lemons" name="food" value="lemons" />
+            <label for="lemons">Lemons</label>
+          </li>
+          <li>
+            <input type="checkbox" id="milk" name="food" value="milk" />
+            <label for="milk">Milk</label>
+          </li>
+          <li>
+            <input type="checkbox" id="eggs" name="food" value="eggs" />
+            <label for="eggs">Eggs</label>
+          </li>
+          <li>
+            <input type="checkbox" id="pasta" name="food" value="pasta" />
+            <label for="pasta">Pasta</label>
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="chocolate"
+              name="food"
+              value="chocolate"
+            />
+            <label for="chocolate">Chocolate</label>
+          </li>
+        </ol>
+      </div>
+    </main>
 
     <!-- footer content -->
     <footer><span>direct by Oleh Pozharytskiy&copy;</span></footer>

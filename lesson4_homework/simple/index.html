@@ -5,15 +5,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="beetroot" />
 
-    <!-- ! link favicon (use beetroot img) -->
-    <link rel="icon" href="./img/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="./links_css/normalize.css" />
-    <link rel="stylesheet" href="./links_css/header.css" />
+    <!-- document name -->
+    <title>My simple website</title>
 
-    <!-- page name  -->
-    <title>General page</title>
+    <!-- add link normalize.min.css v8.0.1 -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- add style -->
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ! add icon (only beetroot academy icon) -->
+    <link rel="icon" href="./img/favicon.png" />
   </head>
   <body>
     <!-- navigation block -->
@@ -109,21 +112,43 @@
         </nav>
       </div>
     </header>
-
-    <!-- content -->
-    <div>
-      <iframe
-        width="1280"
-        height="720"
-        src="https://www.youtube.com/embed/ZOzzRlc_qho"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+    <div class="container">
+      <!-- content block -->
+      <main>
+        <h1>My simple website</h1>
+        <div>
+          <img class="sunset" src="./img/sunset.jpg" alt="sunset" />
+        </div>
+        <!-- text block 1-->
+        <p class="first">
+          Lorem, ipsum dolor sit amet consectetur
+          <em> adipisicing elit. </em> A doloribus quod laudantium inventore
+          eius dolore temporibus
+          <b> dolores odio, voluptatibus blanditiis, voluptas aliquid alias </b>
+          dicta rerum ea ex consequatur ab tempora ipsa corrupti, fugiat tempore
+          nostrum assumenda <em class="blue"> sit </em>? Ullam laboriosam optio
+          minima odit deleniti quae, quaerat, sequi, molestias laborum libero
+          dolorum.
+        </p>
+        <!-- cars sectoin -->
+        <section>
+          <img class="cars" src="./img/car01.jpg" alt="yellow car" />
+          <img class="cars" src="./img/car02.jpg" alt="white car" />
+          <img class="cars" src="./img/car03.jpg" alt="blue car" />
+          <img class="cars" src="./img/car04.jpg" alt="black and white car" />
+          <img class="cars" src="./img/car05.jpg" alt="red car" />
+        </section>
+        <!-- text block 2 -->
+        <p class="second">
+          <span class="color"> Lorem ipsum </span> dolor, sit amet consectetur
+          adipisicing elit. Repellendus suscipit deleniti placeat incidunt cum
+          perspiciatis rem sit nihil dolores nobis voluptates doloribus, dicta
+          necessitatibus qui praesentium accusantium error veniam. Temporibus.
+        </p>
+        <br />
+      </main>
+      <!-- footer -->
+      <footer>&copy; Copyright</footer>
     </div>
-
-    <!-- footer content -->
-    <footer><span>direct by Oleh Pozharytskiy&copy;</span></footer>
   </body>
 </html>

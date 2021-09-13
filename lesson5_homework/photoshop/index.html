@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- meta tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="beetroot" />
-
-    <!-- ! link favicon (use beetroot img) -->
-    <link rel="icon" href="./img/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="./links_css/normalize.css" />
-    <link rel="stylesheet" href="./links_css/header.css" />
-
-    <!-- page name  -->
-    <title>General page</title>
+    <title>Photoshop</title>
+    <!-- normalzie -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img/favicon.png" />
   </head>
   <body>
     <!-- navigation block -->
-    <header>
+    <header class="heder-nav">
       <div class="container">
         <nav>
           <ul class="menu">
@@ -109,21 +105,47 @@
         </nav>
       </div>
     </header>
-
-    <!-- content -->
-    <div>
-      <iframe
-        width="1280"
-        height="720"
-        src="https://www.youtube.com/embed/ZOzzRlc_qho"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+    <div class="container">
+      <!-- header -->
+      <div class="header">
+        <div class="header__wrapper">
+          <div class="header__logo">
+            <img class="header__logo__image" src="./img/logo.png" alt="logo" />
+          </div>
+        </div>
+      </div>
+      <!-- main content -->
+      <main class="main">
+        <div class="main_wrapper">
+          <h1 class="main_title">WE ARE SOCIAL</h1>
+          <hr />
+          <div class="social">
+            <div class="social_wrapper">
+              <a href="#" class="social_item">
+                <img src="./img/facebook.png" alt="facebook" />
+              </a>
+              <a href="#" class="social_item">
+                <img src="./img/tweter.png" alt="tweter" />
+              </a>
+              <a href="#" class="social_item">
+                <img src="./img/google.png" alt="google" />
+              </a>
+              <a href="#" class="social_item">
+                <img src="./img/dribble.png" alt="dribble" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer_wrapper">
+          <p>
+            &copy; 2014
+            <span class="color-blue">Kasper</span>
+            All Right Reserved
+          </p>
+        </div>
+      </footer>
     </div>
-
-    <!-- footer content -->
-    <footer><span>direct by Oleh Pozharytskiy&copy;</span></footer>
   </body>
 </html>
