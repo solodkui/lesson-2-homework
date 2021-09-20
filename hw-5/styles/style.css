@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0A080F;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* header */
+
+.header-wrapper {
+  margin-top: 120px;
+}
+
+/* end of header block */
+
+/* main */
+
+.main-wrapper {
+  margin-top: 50px;
+}
+
+.h-text {
+  font-weight: 400;
+}
+
+/* end of main block */
+
+/* separator */
+
+.separator {
+  margin: 20px 0 auto;
+}
+
+.separator-wpapper {
+  max-width: 230px;
+  width: 100%;
+}
+
+/* end of separator block */
+
+/* navigation */
+
+.nav-wrapper {
+  margin-top: 20px;
+}
+
+.list-nav {
+  list-style: none;
+}
+
+.line {
+  margin-right: 33px;
+}
+
+.line:last-child {
+  margin-right: 0;
+}
+
+/* end of navigation block */
+
+/* footer */
+
+.footer-wrapper {
+  margin-top: 85px;
+  font-weight: 600;
+}
+
+.color-blue {
+  color: #00C9FC;
+}
+
+/* end of footer block */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.container {
+  background-color: black;
+  background-image: url("../images/12grid.png");
+  height: 420px;
+  width: 1920px;
+  padding: 0px;
+  margin: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.center {
+  display: block;
+  text-align: center;
+}
+
+header {
+  padding: 120px 902px 51px 906px;
+}
+
+.border {
+  padding: 6px 845px 21px 845px;
+}
+
+.social {
+  padding: 0 30px 89px 30px;
+}
+
+.social img {
+  margin: 0 15px 0 15px;
+} */
